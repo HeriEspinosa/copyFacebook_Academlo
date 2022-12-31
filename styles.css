@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+:root {
+--Bg-color: #eff1f4;
+--Bg-Frm-color: #fff;
+--Color: #1c1e21;
+--Btn-Lg-color: #1877f2;
+--Btn-Cna-color: #42b72a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    
+}
+
+body {
+    background-color: var(--Bg-color);
+}
+
+main {
+    max-width: 460px;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tittle {
+    width: 310px;
+    margin: 0 auto;
+    font-weight: normal;
+    padding: 0;
+}
+
+.paragraph {
+    width: 410px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 2.3rem;
+}
+
+.login {
+    background-color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 1.1rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--Bg-color);
+    outline: none;
+    transition: border 0.5s;
+}
+
+input::placeholder {
+    color: rgb(143, 143, 143);
+    font-size: 17px;
+}
+
+input, button {
+    
+    display: block;
+    margin: 1rem auto;
+}
+button, a {
+    cursor: pointer;
+}
+
+.btnLogin {
+    width: 100%;
+    height: 50px;
+    border-radius: 0.4rem;
+    border: 0px;
+    color: var(--Bg-Frm-color);
+    background-color: var(--Btn-Lg-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.forgot {
+    color: var(--Btn-Lg-color);
+    font-size: 0.9rem;
+}
+
+.Hr {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+
+.register {
+    background-color: var(--Btn-Cna-color);
+    color: white;
+    height: 50px;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    border: 0px;
+}
+.createPage {
+    padding: 1.8rem;
+    font-size: 14px;
+}
+
+.create {
+    color: var(--Color);
+    font-weight: bold;
+}
+
+
+
+
